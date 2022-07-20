@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  reqUrl: 'https://eric-catmouseapi.herokuapp.com/submitScenario'
 };
