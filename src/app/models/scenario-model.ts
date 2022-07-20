@@ -1,9 +1,9 @@
 export class Scenario {
     scenario = '';
-    numOfSpaces = 0;
+    spacesCanJump = 0;
 
-    constructor(scenario: string, numOfSpaces: number) {
+    constructor(scenario: string, spacesCanJump: number) {
         this.scenario = scenario;
-        this.numOfSpaces = numOfSpaces
+        this.spacesCanJump = spacesCanJump
     }
 }
